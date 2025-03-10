@@ -1,0 +1,13 @@
+// custom.scss
+
+// Import Bootstrap’s functions (required for its Sass utilities)
+@import "~bootstrap/scss/functions";
+
+// Import Bootstrap’s variables to access $indigo
+@import "~bootstrap/scss/variables";
+
+// Override the primary variable with the indigo palette
+$primary: $indigo;
+
+// Now import all of Bootstrap
+@import "~bootstrap/scss/bootstrap";
